@@ -8,7 +8,7 @@ h1{
     text-align: center;
 }
 
-
+/* use id as a selector */
 #myTitle1{
     color: blue;
 }
@@ -30,6 +30,7 @@ p{
     font-size: 30px;
 }
 
+/* use class as a selector */
 .myPara1{
     color:burlywood;
     text-align: right;
@@ -64,6 +65,7 @@ img{
     height: 300px;
 }
 
+/* calling the empty div and make the image center */
 #nyuimg{
     text-align: center;
 }

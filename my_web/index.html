@@ -3,8 +3,10 @@
 
 <head>
     <title>my web page</title>  
+    <!-- use link tag to link external stylesheet, a css file -->
     <link rel="stylesheet" href="../my_web/css/style.css">
 
+    <!-- use link tag to link external font file from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
@@ -15,6 +17,7 @@
 
 
 
+<!-- add id into the open tag of h6 element, one element can only have one id -->
     <h6 id="myTitle1" > my heading with smaller size</h6>
 
     <h6 id="myTitle2" > another heading line with h6 tag</h6>
@@ -23,6 +26,7 @@
 
     <a href="http://google.com">this is my link</a>
 
+    <!-- multiple classes can be added to one element -->
     <p class="myPara1 allPara" >
         this is the first paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br> is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.
     </p>
@@ -31,10 +35,13 @@
         this is the second paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br> is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.
     </p>
 
+    <!-- id and class can work together  -->
     <p id = 'myPara3' class="allPara" >
         this is the thrid paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br> is a paragraph with multiple sentences.this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.
     </p>
 
+    <!-- have an empty tag, a div to wrap the img element -->
+    <!-- path is important, ../ means the directory of root file, wich is CCLab folder in our case -->
    <div id="nyuimg">
     <img src="../my_web/images/nyush.jpg" alt="a picture of nyuSH">
    </div>
