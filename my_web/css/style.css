@@ -1,0 +1,69 @@
+h1{
+    color:#82775a;
+    background-color: black;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#myTitle1{
+    color: blue;
+}
+
+#myTitle2{
+    color:orange;
+}
+
+h6{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: rgb(100,100,200);
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+}
+
+.myPara1{
+    color:burlywood;
+    text-align: right;
+}
+
+.myPara2{
+    color: black;
+    text-align: center;
+}
+
+.allPara {
+
+    font-style: italic;
+    padding:100px;
+}
+
+#myPara3{
+    color:grey;
+}
+
+a{
+    color:blue;
+    font-size: 30px;
+}
+
+a:hover{
+    color:red;
+}
+
+img{
+    width: 800px;
+    height: 300px;
+}
+
+#nyuimg{
+    text-align: center;
+}
