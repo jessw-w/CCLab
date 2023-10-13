@@ -69,3 +69,12 @@ img{
 #nyuimg{
     text-align: center;
 }
+
+canvas{
+    display: block;
+    margin:auto;
+}
+
+#myp5{
+    border: 10px solid red;
+}
