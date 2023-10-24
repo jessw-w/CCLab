@@ -1,9 +1,30 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(240, 225, 203);
 }
 
 canvas {
   display: block;
+  margin:auto;
 }
 
+
+h1{
+  color: rgb(43, 2, 2);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+h3{
+  text-align: right;
+}
+
+p{
+  margin: auto;
+  color: rgb(20, 20, 32);
+  font-family: 'Young Serif', serif;
+  font-size: 20px;
+}

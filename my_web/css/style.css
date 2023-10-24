@@ -17,15 +17,15 @@ h1{
     color:orange;
 }
 
-h6{
-    color: red;
+h1{
+    color: rgb(43, 2, 2);
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
 }
 
 p{
-    color: rgb(100,100,200);
+    color: rgb(20, 20, 32);
     font-family: 'Young Serif', serif;
     font-size: 30px;
 }
